@@ -1,4 +1,5 @@
 <?php
+$path = '+https://cdn.jsdelivr.net/gh/LeeJingK/20210421live2d/model/';
 isset($_GET['id']) ? $id = $_GET['id'] : exit('error');
 
 require '../tools/modelList.php';
